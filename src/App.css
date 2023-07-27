@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  
+}
+
+#hello{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px;
+
+}
+.section h1 {
+  margin-bottom: 20px;
+}
+
+.section:not(:first-child) {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .title-nav{
+    font-size: 10px;
+  }
+  
+}
+#contact{
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+}

@@ -1,0 +1,50 @@
+#title{
+    font-size: 60px;
+}
+.main-home{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hello-content{
+    text-align: center;
+    line-height: 1.8;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    max-width: 600px; 
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+.my-image{
+    
+    width: 50%;
+    filter: grayscale(80%);
+
+}
+#hello{
+    background-color: rgb(0, 0, 0);
+
+
+}
+#image{
+    width: 40%;
+     
+
+}
+
+@media only screen and (max-width: 768px) {
+  #image{
+    width: 100%;
+     
+
+}
+  
+}

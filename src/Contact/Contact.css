@@ -1,0 +1,40 @@
+.contact-main{
+  text-align: center;
+  justify-content: center;
+  
+
+
+}
+.icons-media{
+    display: flex;
+    background-color: rgb(188, 188, 188);
+    justify-content: space-around;
+
+}
+.icons-media img{
+    width: 20%;
+}
+.icons-media img:hover{
+    transform: scale(1.1);
+    background-color: rgb(74, 190, 99);
+    border-radius: 2rem;
+}
+
+@media only screen and (max-width:896px){
+    .icons-media img{
+    width: 40px;
+}
+}
+.link-email{
+    color: white;
+    text-decoration: none ;
+}
+.link-email:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(74, 190, 99);
+    border-radius: 1rem;
+    padding: 10px;
+
+
+
+}

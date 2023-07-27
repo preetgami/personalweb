@@ -1,0 +1,22 @@
+nav {
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+nav li {
+  margin: 0 10px;
+  color: #fff;
+  cursor: pointer;
+}

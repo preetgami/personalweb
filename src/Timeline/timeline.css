@@ -1,0 +1,59 @@
+
+
+.col{
+    padding: 0px 10px 0px 0px;
+}
+.container{
+    border-left: 6px solid #505050;
+    padding-left: 20px;
+    width:70%;
+    display:flex;
+    justify-content: column;
+    align-items: center;
+    flex-direction: column;
+
+}
+.title-timeline{
+    padding-left: 5%;
+}
+#timeline{
+    background-color: white;
+}
+#timeline-title{
+    display: flex;
+    justify-content:  space-between;
+}
+.box{
+    position: relative;
+    padding: 20px;
+    padding-right: 10%;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 10px;
+}
+
+.box:hover{
+    box-shadow: 0px 3px 12px 0px #514c4c;
+    border: 1px solid transparent;
+}
+
+#timeline-length{
+    display: flex;
+    justify-content:  space-between;
+}
+.timeline-year{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    height: 100%;
+    width: 80%;
+  }
+  }
+  
