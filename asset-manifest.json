@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.e85ebecb.css",
+    "main.js": "/react-gh-pages/static/js/main.a50c0e7d.js",
+    "static/media/me.png": "/react-gh-pages/static/media/me.f4102d476d832695ed2c.png",
+    "static/media/ram.png": "/react-gh-pages/static/media/ram.aef79f4183af6eaf0903.png",
+    "static/media/wordle.jpg": "/react-gh-pages/static/media/wordle.430e2bfc4ff566ddf33a.jpg",
+    "static/media/gear.jpg": "/react-gh-pages/static/media/gear.12fc315a52930d95a4b7.jpg",
+    "static/media/ball.jpg": "/react-gh-pages/static/media/ball.baf195a559f02a1808d8.jpg",
+    "static/media/git.png": "/react-gh-pages/static/media/git.6c26bafc9402f60134ad.png",
+    "static/media/quote.png": "/react-gh-pages/static/media/quote.cfe08377161ff32e3b1e.png",
+    "static/media/cart.jpg": "/react-gh-pages/static/media/cart.ef29943745fa2b941930.jpg",
+    "static/media/vroom.jpg": "/react-gh-pages/static/media/vroom.949afaa3e10451cc1d3e.jpg",
+    "static/media/gmail.png": "/react-gh-pages/static/media/gmail.bcb06b9c124c0bc216e8.png",
+    "static/media/linkedi.png": "/react-gh-pages/static/media/linkedi.27df32a515e23edad056.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.e85ebecb.css.map": "/react-gh-pages/static/css/main.e85ebecb.css.map",
+    "main.a50c0e7d.js.map": "/react-gh-pages/static/js/main.a50c0e7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e85ebecb.css",
+    "static/js/main.a50c0e7d.js"
+  ]
+}
