@@ -3,30 +3,37 @@ import "./projects.css"
 import ProjectItem from './ProjectItem'
 function Projetcs() {
   var data=[{
-    name:"Website-Internship",
+    name:"Website- Made as Intern",
     image:"./vroom.jpg",
     tech:["Javascript","HTML","REACT"],
     link: "https://github.com/preetgami/ram_auto"
 
   }, {
-      name: "Chrome extension-Internship",
-      image: "./gear.jpg",
-    tech: ["Javascript", "HTML","Google App Script"],
-    link: "https://github.com/preetgami/web-ext-ram-auto"
+      name: "FULL Stack Artwork Marketplace ",
+      image: "./cart.jpg",
+      tech: ["React", "Node", "MongoDb", "Express"],
+      link: "https://github.com/preetgami/econ-frontend"
 
-    }, {
-      name: "FULL Stack Artwork-marketplace ",
-    image: "./cart.jpg",
-      tech: ["React","Node","MongoDb","Express"],
-    link: "https://github.com/preetgami/econ-frontend"
-
-    }, {
+    },
+    {
+      name:"Real time ONLINE Chess",
+      image: "./Chess_Icons.jpg",
+      tech: ["React", "Node", "Express"],
+      link: "https://github.com/preetgami/onlinechess"
+    }
+    , {
     name: "Predict La Liga winners using ML",
-    image: "./ball.jpg",
+    image: "./football.png",
     tech: ["Jupyternotebooks", "Python"],
     link: "https://github.com/preetgami/la-liga"
 
-    }, {
+    },  {
+      name: "Chrome extension-made as intern",
+      image: "./gear.jpg",
+      tech: ["Javascript", "HTML", "Google App Script"],
+      link: "https://github.com/preetgami/web-ext-ram-auto"
+
+    },{
       name: "Wordle solver",
     image: "./wordle.jpg",
       tech: ["React","Javascript","HTML"],
@@ -40,7 +47,7 @@ function Projetcs() {
     }]
   return (
     <div>
-      <h1 className='protect-title-main'> Some Projects</h1>
+      <h1 className='protect-title-main'> Some Projects (click for demos)</h1>
      
       <div className='projects-data'>
         {data.map(item=>{return <ProjectItem

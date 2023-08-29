@@ -4,7 +4,7 @@ import "./timeline.css"
 
 function Timeline() {
   var data = [{
-    year: "today",
+    year: "Present",
     job: "Data Analytics student",
     title: "NielsenIQ",
     duration: "4 Months",
