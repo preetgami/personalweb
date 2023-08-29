@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/personalweb/static/css/main.e85ebecb.css",
-    "main.js": "/personalweb/static/js/main.b29acfbd.js",
+    "main.js": "/personalweb/static/js/main.f4167b4f.js",
     "static/media/me.png": "/personalweb/static/media/me.f4102d476d832695ed2c.png",
     "static/media/ram.png": "/personalweb/static/media/ram.aef79f4183af6eaf0903.png",
     "static/media/wordle.jpg": "/personalweb/static/media/wordle.430e2bfc4ff566ddf33a.jpg",
     "static/media/gear.jpg": "/personalweb/static/media/gear.12fc315a52930d95a4b7.jpg",
     "static/media/ball.jpg": "/personalweb/static/media/ball.baf195a559f02a1808d8.jpg",
     "static/media/git.png": "/personalweb/static/media/git.6c26bafc9402f60134ad.png",
+    "static/media/Chess_Icons.jpg": "/personalweb/static/media/Chess_Icons.d1750d38cacb54cedce7.jpg",
+    "static/media/football.png": "/personalweb/static/media/football.5c0b4bea5ccfd6d2a82b.png",
     "static/media/quote.png": "/personalweb/static/media/quote.cfe08377161ff32e3b1e.png",
     "static/media/cart.jpg": "/personalweb/static/media/cart.ef29943745fa2b941930.jpg",
     "static/media/vroom.jpg": "/personalweb/static/media/vroom.949afaa3e10451cc1d3e.jpg",
@@ -15,10 +17,10 @@
     "static/media/linkedi.png": "/personalweb/static/media/linkedi.27df32a515e23edad056.png",
     "index.html": "/personalweb/index.html",
     "main.e85ebecb.css.map": "/personalweb/static/css/main.e85ebecb.css.map",
-    "main.b29acfbd.js.map": "/personalweb/static/js/main.b29acfbd.js.map"
+    "main.f4167b4f.js.map": "/personalweb/static/js/main.f4167b4f.js.map"
   },
   "entrypoints": [
     "static/css/main.e85ebecb.css",
-    "static/js/main.b29acfbd.js"
+    "static/js/main.f4167b4f.js"
   ]
 }
