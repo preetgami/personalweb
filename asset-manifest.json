@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personalweb/static/css/main.e85ebecb.css",
-    "main.js": "/personalweb/static/js/main.f4167b4f.js",
-    "static/media/me.png": "/personalweb/static/media/me.f4102d476d832695ed2c.png",
+    "main.js": "/personalweb/static/js/main.3dc91a21.js",
+    "static/media/me.png": "/personalweb/static/media/me.996948799f24a142fe42.png",
     "static/media/ram.png": "/personalweb/static/media/ram.aef79f4183af6eaf0903.png",
     "static/media/wordle.jpg": "/personalweb/static/media/wordle.430e2bfc4ff566ddf33a.jpg",
     "static/media/gear.jpg": "/personalweb/static/media/gear.12fc315a52930d95a4b7.jpg",
@@ -17,10 +17,10 @@
     "static/media/linkedi.png": "/personalweb/static/media/linkedi.27df32a515e23edad056.png",
     "index.html": "/personalweb/index.html",
     "main.e85ebecb.css.map": "/personalweb/static/css/main.e85ebecb.css.map",
-    "main.f4167b4f.js.map": "/personalweb/static/js/main.f4167b4f.js.map"
+    "main.3dc91a21.js.map": "/personalweb/static/js/main.3dc91a21.js.map"
   },
   "entrypoints": [
     "static/css/main.e85ebecb.css",
-    "static/js/main.f4167b4f.js"
+    "static/js/main.3dc91a21.js"
   ]
 }
