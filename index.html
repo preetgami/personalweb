@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio App</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Preet Gami" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Preet Gami">Preet Gami</h1>
+
+          <p class="title">CS at University of Alberta</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:pgami@ualberta.ca" class="contact-link">pgami@ualberta.ca</a>
+            </div>
+
+
+          </li>
+
+         
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/preetgami12/"target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          
+
+          <li class="social-item">
+            <a href="https://github.com/preetgami" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+         
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hey there! I'm Preet! 👋  Thanks a ton for dropping by!🌐 Whether you're here by chance or choice, I'm thrilled you're here! 🎉
+            <br/>
+            <br/>
+
+            I love coding 💻 and like most, suffer a love hate relationship with running 🏃. 
+            <br/>
+            <br/>
+
+            I would list my PBs here but we have Strava for that. 
+            So <strong id="keyword">regrettably </strong>, this website only contains things I've worked on.
+            
+          
+          </p>
+        </section>
+
+
+         <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+           
+
+        </div>
+
+
+       
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Alberta</h4>
+
+              <span>2022 — 2026</span>
+
+              <p class="timeline-text">
+                Courses: Programming Methodology, Discrete Math, Algorithms I, Basics of Machine Learning, Fundamentals of
+                computation I/II, Databses,Object-oriented Programming
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SCLPS Senior School</h4>
+
+              
+
+              <p class="timeline-text">
+                British International A levels. 4 A* in Physics,Maths, Further Maths, Chemistry. Highest mark in Africa (Physics)
+              </p>
+
+            </li>
+
+           
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+ <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Salus Technologies</h4>
+              <div class="timeline-date">
+                <p>
+                  Software Engineer Intern
+                </p> 
+                <p>
+              2024 May - present
+                </p></div>
+              
+
+              <p class="timeline-text">
+               On the core team 🫀
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Nielsen IQ</h4>
+              <div class="timeline-date">
+                <p>
+                  Data analytics Extern
+                </p> 
+                <p>
+              2023 Sept — 2023 Dec
+                </p></div>
+              
+
+              <p class="timeline-text">
+                Worked with P&G for product stratergy 📈
+              </p>
+
+            </li>
+            <h4 class="h4 timeline-item-title">Ram Auto</h4>
+              <div class="timeline-date">
+                <p>
+                  Full-stack Developer Intern
+                </p> 
+                <p>
+              2023 June - 2023 Aug
+                </p></div>
+              
+
+              <p class="timeline-text">
+               Made a full stack website for product ETA ⌛ 
+              </p>
+
+            </li>
+
+           
+
+            
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+
+
+            </button>
+
+            
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/preetgami/physmatchh" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/hackathon.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NatHacks- Largest Neurotech Hackathon</h3>
+
+                <p class="project-category">JavaScript, React.js, Python, Flask ,Git </p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/preetgami/ram_auto" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/car.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Website made as intern</h3>
+
+                <p class="project-category">Javascript and React.js </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/preetgami/econ-frontend" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/art.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Full Stack Artwork Marketplace</h3>
+
+                <p class="project-category">React.js, Node.js, MonogoDB and Express.js</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/preetgami/onlinechess"target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/chess.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Real Time Online chess</h3>
+
+                <p class="project-category">React.js, Node.js, Javascript, Express.js, Websockets</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/preetgami/la-liga"target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/foot.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Predict Football winners using Ml</h3>
+
+                <p class="project-category">Jupyter notebooks, Python</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/preetgami/web-ext-ram-auto"target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tool.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Inventory manger extension</h3>
+
+                <p class="project-category">Javascrit, Google App script, Chrome Extensions</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/preetgami/wordle-solver"target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/wordle.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wordle Solver</h3>
+
+                <p class="project-category">React.js, Javascript,</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/preetgami/web-ext"target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ext.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Chrome weather extension</h3>
+
+                <p class="project-category">Javascript</p>
+
+              </a>
+            </li>
+
+            
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h4 class="h2 article-title"></h4>
+        </header>
+
+       
+
+        <section class="contact-form">
+
+          <h4 class="h4 form-title">Feel free to HMU</h4>
+          
+
+          <p class="about-text">We can go for a run or we can talk about my work! Both are <strong id="keyword"> pluses</strong> </p>
+       
+
+
+     
+
+        <ul class="contacts-list">
+
+
+         
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list2">
+          <li class="social-item">
+            <a href="mailto:pgami@ualberta.ca"target="_blank" class="social-link">
+              <ion-icon name="mail-unread-outline"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/preetgami12/"target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          
+
+          <li class="social-item">
+            <a href="https://github.com/preetgami" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+        </section>
+        
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
